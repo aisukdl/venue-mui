@@ -1,4 +1,4 @@
-import { Box, Button, Checkbox, Divider, Icon, TextField } from '@mui/material';
+import { Box, Button, Checkbox, Divider, TextField } from '@mui/material';
 import Grid from '@mui/material/Grid'; 
 import { Stack } from '@mui/system';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -24,7 +24,7 @@ function LoginPage() {
                          margin: "80px 0px 40px"
                     }}>
                         <h1>Hi, Welcome back</h1>
-                        <img style={{maxWidth:"100%"}} src='https://minimal-kit-react.vercel.app/assets/illustrations/illustration_login.png' />
+                        <img style={{maxWidth:"100%"}} alt="login-illust" src='https://minimal-kit-react.vercel.app/assets/illustrations/illustration_login.png' />
                     </Box>
                 </Stack>
             </Grid>
