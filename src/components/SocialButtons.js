@@ -5,7 +5,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 export const GoogleButton = () => { 
     return(
-        <Button variant="outlined" sx={{height:"48px"}} fullWidth>
+        <Button variant="outlined" fullWidth>
             <GoogleIcon color='error'  />
         </Button>
     )
@@ -13,7 +13,7 @@ export const GoogleButton = () => {
 
 export const FacebookButton = () => {
     return(
-        <Button variant="outlined" sx={{height:"48px"}} fullWidth>
+        <Button variant="outlined" fullWidth>
             <FacebookTwoToneIcon />
         </Button>
     )
@@ -21,7 +21,7 @@ export const FacebookButton = () => {
 
 export const TwitterButton = () => {
     return(
-        <Button variant="outlined" sx={{height:"48px"}} fullWidth>
+        <Button variant="outlined" fullWidth>
         <TwitterIcon />
     </Button>
     )

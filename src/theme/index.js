@@ -8,7 +8,8 @@ const themeOptions = {
                 borderColor: 'lightgrey',
                 '&:hover': {
                     borderColor: 'lightgrey'
-                }
+                },
+                height: '48px'
             },
           },
         },
