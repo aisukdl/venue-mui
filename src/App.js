@@ -1,11 +1,16 @@
 import './App.css';
 import LoginPage from './pages/LoginPage';
+import MainPage from './pages/MainPage';
+import { ThemeProvider } from './theme';
 
 function App() {
   return (
-    <div className="App">
-      <LoginPage />
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        {/* <LoginPage /> */}
+        <MainPage />
+      </div>
+    </ThemeProvider>
   );
 }
 
