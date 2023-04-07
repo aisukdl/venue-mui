@@ -2,19 +2,49 @@ import { ThemeProvider as MUIThemeProvider, createTheme } from '@mui/material/st
 
 const themeOptions = {
     components: {
-        MuiButton: {
-          styleOverrides: {
+      MuiButton: {
+        styleOverrides: {
+          root: {
+            borderColor: 'lightgrey',
+            height: '48px',
+            '&:hover': {
+              borderColor: 'lightgrey'
+            }
+          }
+        }
+      },
+      MuiListItem: {
+        styleOverrides: {
             root: {
-                borderColor: 'lightgrey',
-                '&:hover': {
-                    borderColor: 'lightgrey'
+                padding:0
+            }
+        }
+      },
+      MuiListItemButton: {
+        styleOverrides: {
+            root: {
+                borderRadius: '6px',
+                '&.Mui-selected': {
+                    backgroundColor: 'rgba(145, 158, 171, 0.16)',
+                    '&:hover': {
+                        backgroundColor: 'rgba(145, 158, 171, 0.16)'
+                    }
                 },
-                height: '48px'
-            },
-          },
-        },
-    }    
-}
+                '&:hover': {
+                    backgroundColor: 'rgba(145, 158, 171, 0.08)'
+                }
+            }
+        }
+      },
+      MuiCard: {
+        styleOverrides: {
+            root: {
+                borderRadius: '6px'
+            }
+        }
+      }
+    }
+  };
 
 const theme = createTheme(themeOptions);
 
