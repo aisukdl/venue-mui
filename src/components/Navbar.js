@@ -20,7 +20,6 @@ export const Navbar = () => {
                 <NavItems />
             </Drawer>
             <Box
-                variant="permanent"
                 sx={{
                     display: { xs: 'none', lg: 'block' },
                     width: "100%"
